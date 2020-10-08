@@ -57,3 +57,6 @@ const fishCollection = [
 export const useFish = () => {
     return fishCollection.slice()
 }
+
+// this ^^^ has just created a function to be exported. It is spliced, which is acting as a copy of the original on this page
+
