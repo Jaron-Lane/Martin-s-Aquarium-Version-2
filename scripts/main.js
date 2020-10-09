@@ -1,7 +1,8 @@
-import { mostHolyFish } from './fishDataProvider.js'
+import { mostHolyFish, soldierFish } from './fishDataProvider.js'
 import { FishList } from './fishList.js'
 
-mostHolyFish()
+
+soldierFish()
 FishList()
 
 
