@@ -25,26 +25,21 @@ export const FishList = () => {
 
 
     const soldierFishes = soldierFish()
-    // stores the useFish function from the fishDataProvider in a variable called "fishes"
 
-    let fishHTMLrepresentation = ""
-    // creates an empty array called fishHTMLrepresentation
+    // let fishHTMLrepresentation = ""
+  
     for (const fishObjects of soldierFishes) {
-        // prepares an iteration of "fishes" called "fishObjects"
         fishHTMLrepresentation += Fish(fishObjects)
-        // uses the function "Fish()" to add HTML rendering to "fishObjects" and puts them in the empty "fishHTMLrepresentation" array with +=
+        
     }
     
     
     const unHolyFishes = unHolyFish()
-    // stores the useFish function from the fishDataProvider in a variable called "fishes"
 
-    let fishHTMLrepresentation = ""
-    // creates an empty array called fishHTMLrepresentation
+    // let fishHTMLrepresentation = ""
+
     for (const fishObjects of unHolyFishes) {
-        // prepares an iteration of "fishes" called "fishObjects"
         fishHTMLrepresentation += Fish(fishObjects)
-        // uses the function "Fish()" to add HTML rendering to "fishObjects" and puts them in the empty "fishHTMLrepresentation" array with +=
     }
 
 
